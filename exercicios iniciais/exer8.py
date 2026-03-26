@@ -1,0 +1,5 @@
+nome1=input("digite um nome: ")
+nome2=input("digite um nome: ")
+nome3=input("digite um nome: ")
+nome4=input("digite um nome: ")
+nome5=input("digite um nome: ")
