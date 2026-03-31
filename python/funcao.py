@@ -30,12 +30,13 @@ def sub(n1,n2):
     print("subtração",n1-n2)
 sub(9,10)
 """
-
+"""
 def calcular_total(quantidade,preco_unitario):
     total=quantidade*preco_unitario
     return total
 valor_venda=calcular_total(3,5.5)
 print("o valor a pagar é: R$",valor_venda)
+"""
 
 """ - teste (comentado)
 def vezes(n1,n2):
@@ -44,3 +45,6 @@ def vezes(n1,n2):
 resultado_mult=vezes(9,4)
 print(resultado_mult)
 """
+
+def mostra():
+    return "preencha corretamente"
