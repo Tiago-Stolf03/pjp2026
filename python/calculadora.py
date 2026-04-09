@@ -45,12 +45,6 @@ tk.Label(root, text="Valor1:").grid(row=0, column=0, sticky="w", pady=5)
 entry_valor1 = tk.Entry(root, width=30)
 entry_valor1.grid(row=0, column=1, pady=5)
 
-"""
-tk.Label(root, text="Operação:").grid(row=3, column=0, sticky="w", pady=5)
-entry_operacao = tk.Entry(root, width=30)
-entry_operacao.grid(row=3, column=1, pady=5)
-"""
-
 tk.Label(root, text="Valor2:").grid(row=1, column=0, sticky="w", pady=5)
 entry_valor2 = tk.Entry(root, width=30)
 entry_valor2.grid(row=1, column=1, pady=5)
