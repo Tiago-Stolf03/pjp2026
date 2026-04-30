@@ -100,7 +100,7 @@ def abrir_consulta(parent):
         frame_botoes, 
         text="Editar Selecionada", 
         command=executar_edicao,
-        bg="#ffcc00",
+        bg="#3e538a",
         font=("Arial", 10, "bold"),
         width=20
     )

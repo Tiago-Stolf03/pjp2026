@@ -146,7 +146,7 @@ AND / OR                 Combinação de condições                WHERE idade 
 --------------------------------------------------------------------------------------------------------------------------
  
  
-Ordenação e Limite
+Ordenação e Limite 
 Sql
  
 SELECT nome, idade
