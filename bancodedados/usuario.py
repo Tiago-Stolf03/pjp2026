@@ -5,31 +5,24 @@ import sqlite3
 
 
 def conectar():
-        conn = sqlite3.connect("banco.db")
+        conn = sqlite3.connect("./bancodedados/banco.db")
         cursor = conn.cursor()
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS usuario (
-                id_usuario INTEGER PRIMARY KEY AUTOINCREMENT, 
-                login VARCHAR(100),
-                senha VARCHAR(50)
-            )
-        """)
-        conn.commit()
+        cursor.execute ("")
+        conn.commit()  
+        conn.close()
         return conn 
  
 def autenticar_dados():
     login = entry_login.get()
     senha = entry_senha.get()
-    if login == "abc" and senha == "123":
-        messagebox.showinfo("Sucesso", f"Cadastro de {login} realizado!")
+    if  login == "abc" and senha == "123":
+        messagebox.showinfo("Sucesso", "Login realizado!")
+        root.destroy()
         import principal
     elif login != "abc" and senha != "123":
         mostradados = f.mostra()
         messagebox.showwarning("ERRO", f"{mostradados}")
 
-
-
- 
 # Criando a janela
 root = tk.Tk()
 root.title("Cadastro de Usuário")
